@@ -6,10 +6,11 @@
     "skillList": "个人技能",
     "awardList": "更多信息",
     "workList": "个人作品",
-    "aboutme": "个人评价"
+    "aboutme": "个人评价",
+    "workExpYear": "工作经验"
   },
   "avatar": {
-    "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
+    "src": "https://avatars.githubusercontent.com/u/44281559?v=4",
     "hidden": false
   },
   "profile": {
@@ -52,7 +53,7 @@
       "award_time": "2020.10"
     },
     {
-      "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
+      "award_info": "前端早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
       "award_time": "2021.07"
     }
   ],
