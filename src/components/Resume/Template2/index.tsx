@@ -94,7 +94,9 @@ export const Template2: React.FC<Props> = props => {
               )}
               {profile?.github && (
                 <div className="github">
-                  <GithubFilled style={{ color: theme.color, opacity: 0.85 }} />
+                  <EnvironmentFilled
+                    style={{ color: theme.color, opacity: 0.85 }}
+                  />
                   <span
                     style={{ cursor: 'pointer' }}
                     onClick={() => {
@@ -126,7 +128,7 @@ export const Template2: React.FC<Props> = props => {
                     style={{ color: theme.color, opacity: 0.85 }}
                   />
                   <span>
-                    <FormattedMessage id="工作经验" />: {profile.workExpYear}
+                    <FormattedMessage id="年龄" />: {profile.workExpYear}
                   </span>
                 </div>
               )}

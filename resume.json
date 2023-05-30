@@ -95,7 +95,7 @@
   ],
   "workList": [],
   "aboutme": {
-    "aboutme_desc": "\n1. 熟练掌握Kotlin，熟悉Java以及JVM相关内容，了解常见语言特性，熟悉常见数据结构和算法。\n2. 了解RxJava、Fresco等三方组件库源码，熟悉多线程和网络编程。\n 3. 了解常见性能优化方法。\n4. 熟悉常见设计模式及安卓MVVM开发范式，熟悉android相关内容。\n4. 英语CET6，良好的英语听说读写能力。"
+    "aboutme_desc": "\n1. 熟练掌握Kotlin，熟悉Java以及JVM相关内容，了解常见语言特性，熟悉常见数据结构和算法。\n2. 了解Router、Fresco等三方组件库源码，熟悉多线程相关内容。\n 3. 了解常见性能优化方法。\n4. 熟悉常见设计模式及安卓MVVM开发范式，熟悉android相关内容。\n4. 英语CET6，良好的英语听说读写能力。"
   },
   "theme": {
     "color": "#2f5785",
