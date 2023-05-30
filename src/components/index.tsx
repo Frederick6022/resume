@@ -49,7 +49,7 @@ export const Page: React.FC = () => {
     const searchObj = qs.parse(currentSearch);
     if (!searchObj.template) {
       const search = qs.stringify({
-        template: config?.template || 'template1',
+        template: config?.template || 'template2',
         ...qs.parse(currentSearch),
       });
       window.location.href = `${pathname}?${search}${hash}`;
@@ -93,7 +93,7 @@ export const Page: React.FC = () => {
     }
 
     if (!mode) {
-      const link = `https://github.com/${user}/${user}/tree/${branch}`;
+      const link = `https://github.com/${user}/resume/tree/master`;
       fetchResume(lang, branch, user)
         .then(data => store(data))
         .catch(() => {

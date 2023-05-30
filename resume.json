@@ -7,7 +7,8 @@
     "awardList": "更多信息",
     "workList": "个人作品",
     "aboutme": "个人评价",
-    "workExpYear": "工作经验"
+    "workExpYear": "年龄",
+    "github": "籍贯"
   },
   "avatar": {
     "src": "https://avatars.githubusercontent.com/u/44281559?v=4",
@@ -17,7 +18,8 @@
     "name": "吴安国",
     "email": "13159865062@163.com",
     "mobile": "13159865062",
-    "workExpYear": "2年"
+    "workExpYear": "27",
+    "github": "安徽合肥"
   },
   "educationList": [
     {
@@ -71,21 +73,21 @@
   "projectList": [
     {
       "project_name": "抖音青少年",
-      "project_role": "开发者",
+      "project_role": "安卓开发",
       "project_time": "2021.07 - 2022.06",
       "project_desc": "抖音青少年模式简称青模，对齐抖音正常模式下的核心显性功能，旨在为U18用户提供优质服务。",
       "project_content": "青模内“我的”页面存在大量历史冗余逻辑，开发成本较大，需要对“我的”页面完成重构。重构前期充分调研提出可行性改造方案，合并Module，使用ViewHelpe组合方式解耦，统一采用MVVM架构，逻辑内聚。设计AdapterNotifyModel，将列表更新机制抽象为Model，提升拓展性，同时规范网络请求流程，使用组合实现功能的完全复用。"
     },
     {
       "project_name": "好奇小知（独立app）",
-      "project_role": "核心开发",
+      "project_role": "安卓开发",
       "project_time": "2022.01 - 2022.06",
       "project_desc": "好奇小知是一款依托抖音青模的全新app，与青模共用内容池，为青少年用户提供不同于抖音青模的使用体验",
       "project_content": "在该项目中主要负责首页的0-1过程搭建\n1. 通过自定义View和事件分发机制，完成首页金刚位UI与交互设计。\n2. 实现Toast统一管理组件，通过Componet框架完成首页的开发工作。\n3. 首页图片预加载，解决图片磁盘缓存失效问题，优化动图显示以及图片库无网络恢复等一系列问题。"
     },
     {
       "project_name": "TikTok私信",
-      "project_role": "核心开发",
+      "project_role": "安卓开发",
       "project_time": "2022.07 - 至今",
       "project_desc": "TikTok私信作为TikTok的核心功能之一，保证用户在应用内可以建立起良好的沟通关系，对提升整个App的DAU有着至关重要的作用。",
       "project_content": "完成聊天页快捷回复功能以及表情包功能等需求，设计开发相关性能指标，建立指标看板；通过优化消息队列和ViewHolder优化私信页面冷启速度，提升私信页面渗透率。"
